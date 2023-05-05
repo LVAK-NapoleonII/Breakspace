@@ -8,7 +8,7 @@ body,
     position: absolute;
     background: linear-gradient(122.48deg, #e6cece, rgba(209, 204, 244, 0.7));
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 50px;
+    border-radius: 25px;
     width: 350px;
     height: 690px;
     left: 30px;
@@ -30,7 +30,8 @@ h1 {
     top: 243px;
     margin-left: 20px;
     margin-top: 20px;
-    border-radius: 40px;
+    border-radius: 20px;
+    border: none;
 }
 
 .spaces-btn {
@@ -40,7 +41,8 @@ h1 {
     top: 243px;
     margin-left: 20px;
     margin-top: 20px;
-    border-radius: 40px;
+    border-radius: 20px;
+    border: none;
 }
 
 .events-btn {
@@ -50,7 +52,8 @@ h1 {
     top: 243px;
     margin-left: 20px;
     margin-top: 20px;
-    border-radius: 40px;
+    border-radius: 20px;
+    border: none;
 }
 
 .about-us-btn {
@@ -60,7 +63,8 @@ h1 {
     top: 243px;
     margin-left: 20px;
     margin-top: 20px;
-    border-radius: 40px;
+    border-radius: 20px;
+    border: none;
 }
 
 .my-home-link,.spaces-link,.events-link,.about-us-link
@@ -91,7 +95,7 @@ color: black;
     position: absolute;
     background: #fff;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 50px;
+    border-radius: 25px;
     height: 690px;
     width: 1190px;
     left: 260px;
@@ -104,7 +108,7 @@ color: black;
     width: 1125px;
     margin-top: 20px;
     margin-left: 30px;
-    border-radius: 50px;
+    border-radius: 15px;
 }
 
 .space-text {
@@ -133,6 +137,7 @@ color: black;
     margin-left: 790px;
     margin-right: 5px;
     border-radius: 40px;
+    border: none;
 }
 .setting-btn{
     display: inline-flex;
@@ -145,6 +150,7 @@ color: black;
     margin-top: 10px;
     margin-right: 5px;
     border-radius: 40px;
+    border: none;
 }
 .account-btn{
     display: inline-flex;
@@ -157,6 +163,7 @@ color: black;
     margin-top: 10px;
     margin-right: 5px;
     border-radius: 40px;
+    border: none;
 }
 .search-bar{
     font-size: 70%;
@@ -209,6 +216,7 @@ button:hover {
     height: 27px;
     margin-left: 40px;
     margin-right: 15px;
+    margin-top: 15px;
 }
 .art-btn{
     border: none;
@@ -216,6 +224,7 @@ button:hover {
     width: 87px;
     height: 27px;
     margin-right: 15px;
+    margin-top: 15px;
 }
 .lofi-btn{
     border: none;
@@ -223,6 +232,7 @@ button:hover {
     width: 87px;
     height: 27px;
     margin-right: 15px;
+    margin-top: 15px;
 }
 .study-btn{
     border: none;
@@ -230,6 +240,7 @@ button:hover {
     width: 87px;
     height: 27px;
     margin-right: 15px;
+    margin-top: 15px;
 }
 .cafe-btn{
     border: none;
@@ -237,4 +248,5 @@ button:hover {
     width: 87px;
     height: 27px;
     margin-right: 15px;
+    margin-top: 15px;
 }
