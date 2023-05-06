@@ -8,7 +8,7 @@ body,
     position: absolute;
     background: linear-gradient(122.48deg, #e6cece, rgba(209, 204, 244, 0.7));
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 25px;
+    border-radius: 50px;
     width: 350px;
     height: 690px;
     left: 30px;
@@ -67,13 +67,31 @@ h1 {
     border: none;
 }
 
-.my-home-link,.spaces-link,.events-link,.about-us-link
+.my-home-link
 {
-text-decoration: none;
-/* Bỏ gạch chân mặc định của thẻ a */
-font-size: 24px;
-font-weight: bold;
-color: black;
+    text-decoration: none;
+    /* Bỏ gạch chân mặc định của thẻ a */
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 20px;
+    color: black;
+}
+
+.spaces-link,
+.events-link {
+    text-decoration: none;
+    /* Bỏ gạch chân mặc định của thẻ a */
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+.about-us-link {
+    text-decoration: none;
+    /* Bỏ gạch chân mặc định của thẻ a */
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 33px;
+    color: black;
 }
 
 .home,
@@ -82,6 +100,7 @@ color: black;
 .info {
     position: absolute;
     left: 30px;
+    margin-right: 5px;
 }
 
 .nhom-2 {
@@ -95,7 +114,7 @@ color: black;
     position: absolute;
     background: #fff;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 25px;
+    border-radius: 50px;
     height: 690px;
     width: 1190px;
     left: 260px;
@@ -108,7 +127,7 @@ color: black;
     width: 1125px;
     margin-top: 20px;
     margin-left: 30px;
-    border-radius: 15px;
+    border-radius: 50px;
 }
 
 .space-text {
@@ -119,13 +138,25 @@ color: black;
     padding-left: 30px;
     margin-top: 5px;
 }
-.create-room-link{
+
+.create-room-link {
     text-decoration: none;
     font-size: 13px;
+    padding-left: 6px;
     font-weight: bold;
     color: black;
 }
-.create-room-btn{
+
+.setting-img{
+    align-items: center;
+    margin-left: 1.5px;
+}
+
+.account-img{
+    align-items: center;
+    margin-left: 3px;
+}
+.create-room-btn {
     display: inline-flex;
     width: 136px;
     height: 33px;
@@ -133,13 +164,14 @@ color: black;
     top: 243px;
     padding: 15px;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 13px;
     margin-left: 790px;
     margin-right: 5px;
     border-radius: 40px;
     border: none;
 }
-.setting-btn{
+
+.setting-btn {
     display: inline-flex;
     width: 36px;
     height: 36px;
@@ -147,12 +179,13 @@ color: black;
     top: 243px;
     font-size: 15px;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 13px;
     margin-right: 5px;
     border-radius: 40px;
     border: none;
 }
-.account-btn{
+
+.account-btn {
     display: inline-flex;
     width: 36px;
     height: 36px;
@@ -160,12 +193,13 @@ color: black;
     top: 243px;
     font-size: 15px;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 13px;
     margin-right: 5px;
     border-radius: 40px;
     border: none;
 }
-.search-bar{
+
+.search-bar {
     font-size: 70%;
     padding: 0.8em;
     outline: none;
@@ -178,6 +212,7 @@ color: black;
     border-radius: 20px;
     width: 84%;
 }
+
 .search-btn {
     border: none;
     color: #fff;
@@ -209,7 +244,8 @@ button:hover {
         box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
     }
 }
-.code-btn{
+
+.code-btn {
     border: none;
     border-radius: 15px;
     width: 87px;
@@ -218,7 +254,8 @@ button:hover {
     margin-right: 15px;
     margin-top: 15px;
 }
-.art-btn{
+
+.art-btn {
     border: none;
     border-radius: 15px;
     width: 87px;
@@ -226,7 +263,8 @@ button:hover {
     margin-right: 15px;
     margin-top: 15px;
 }
-.lofi-btn{
+
+.lofi-btn {
     border: none;
     border-radius: 15px;
     width: 87px;
@@ -234,7 +272,8 @@ button:hover {
     margin-right: 15px;
     margin-top: 15px;
 }
-.study-btn{
+
+.study-btn {
     border: none;
     border-radius: 15px;
     width: 87px;
@@ -242,7 +281,8 @@ button:hover {
     margin-right: 15px;
     margin-top: 15px;
 }
-.cafe-btn{
+
+.cafe-btn {
     border: none;
     border-radius: 15px;
     width: 87px;
