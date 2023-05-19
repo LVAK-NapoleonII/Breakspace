@@ -153,8 +153,9 @@ h1 {
     margin-left: 1.5px;
 }
 
-.logout-img {
+.account-img {
     align-items: center;
+    margin-left: 3px;
 }
 
 .create-room-btn {
@@ -186,7 +187,7 @@ h1 {
     border: none;
 }
 
-.logout-btn {
+.account-btn {
     display: inline-flex;
     width: 36px;
     height: 36px;
@@ -204,8 +205,13 @@ h1 {
     margin-top: 10px;
 }
 
+.search-bar-div {
+    display:grid;
+    grid-template-columns:1000px 80px;
+    column-gap: 70px;
+}
+
 .search-bar {
-    font-size: 70%;
     padding: 0.8em;
     outline: none;
     margin-left: 35px;
@@ -216,7 +222,7 @@ h1 {
     border: 2px solid rgb(246, 227, 249);
     background-color: transparent;
     border-radius: 20px;
-    width: 85%;
+    min-width: 100px;
 }
 
 .search-btn {
@@ -226,6 +232,7 @@ h1 {
     border-radius: 20px;
     background-size: 100%;
     margin-left: 20px;
+    margin-top:10px;
     padding: 1px 14px 13px;
 }
 
