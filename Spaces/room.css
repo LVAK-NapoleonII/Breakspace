@@ -1,0 +1,80 @@
+body,
+.background {
+    font-family: 'Roboto';
+}
+
+.bg-img {
+    position: absolute;
+    display: flex;
+    height: 724px;
+    width: 1450px;
+}
+
+.List-room {
+    position: fixed;
+    display: block;
+    background: rgb(237, 231, 231);
+    height: 680px;
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 25px;
+}
+
+.title {
+    background: linear-gradient(122.48deg, #e6cece, rgba(209, 204, 244, 0.7));
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 40px;
+    width: 265.5px;
+    height: 53px;
+    margin-left: 9px;
+    padding-left:64px;
+}
+
+.time {
+    float: right;
+}
+
+.space {
+    font-weight: bold;
+    font-size: 30px;
+    padding-top:29px ;
+}
+
+.control {}
+
+.prev {}
+
+.next {}
+
+.menu-space {}
+
+.cafe {}
+
+.cafe-img {}
+
+.code {}
+
+.code-img {}
+
+.lofi {}
+
+.lofi-img {}
+
+.study {}
+
+.study-img {}
+
+.art {}
+
+.art-img {}
+
+.volumn {}
+
+.play {}
+
+.play-img {}
+
+.Countdown {}
