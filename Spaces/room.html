@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="room.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="Ảnh chuyên dụng/">
     <title>Room</title>
     <script src="room.js"></script>
@@ -16,49 +17,75 @@
         <img class="bg-img" src="Ảnh chuyên dụng/image 1.png" alt="">
         <!--button control page  & list spaces-->
         <div class="List-room">
-            <h1 class="title">Bread Spaces</h1>
+            <h1>Bread Spaces</h1>
             <div class="time">
                 <input type="time">
             </div>
-            <h2 class="space">Space</h2>
-            <div class="control">
-                <button><img class="prev" src="Ảnh chuyên dụng/arrow-prev.png" alt=""></button>
-                <button><img class="next" src="Ảnh chuyên dụng/arrow-next.png" alt=""></button>
+            <div class="space">
+                <h2>Spaces</h2>
+                <div class="control">
+                    <a href=""><button class="btn prev"><img class="prev-img" src="Ảnh chuyên dụng/arrow-prev.png" alt=""></button></a>
+                    <a href=""><button class="btn next"><img class="next-img" src="Ảnh chuyên dụng/arrow-next.png" alt=""></button></a>
+                </div>
             </div>
             <div class="menu-space">
-                <button class="cafe"><img class="cafe-img" src="Ảnh chuyên dụng/Group 5.png" alt=""></button>
-                <button class="code"><img class="code-img" src="Ảnh chuyên dụng/image 1188.png" alt=""></button>
-                <button class="lofi"><img class="lofi-img" src="Ảnh chuyên dụng/image 1304.png" alt=""></button>
-                <button class="study"><img class="study-img" src="Ảnh chuyên dụng/image 1231.png" alt=""></button>
-                <button class="art"><img class="art-img" src="Ảnh chuyên dụng/image 1277.png" alt=""></button>
+                <a href=""><button class="cafe"><img class="cafe-img" src="Ảnh chuyên dụng/Group 5.png" alt=""></button></a>
+                <a href=""><button class="code"><img class="code-img" src="Ảnh chuyên dụng/image 1188.png" alt=""></button></a>
+                <a href=""><button class="lofi"><img class="lofi-img" src="Ảnh chuyên dụng/image 1304.png" alt=""></button></a>
+                <a href=""><button class="study"><img class="study-img" src="Ảnh chuyên dụng/image 1231.png" alt=""></button></a> 
+                <a href=""> <button class="art"><img class="art-img" src="Ảnh chuyên dụng/image 1277.png" alt=""></button></a>
             </div>
             <!--play-->
             <div class="volumn">
-                <button class="play"> <img class="play-img" src="Ảnh chuyên dụng/play.png" alt=""> </button>
-                <input type="range">
+                <a href=""><button class="play"><img class="play-img" src="Ảnh chuyên dụng/play.png" alt=""></button></a>
+                <input class="range" type="range">
             </div>
             <div class="to-do-list">
-                <input type="checkbox">
-                <p>Home word</p>
+                <h3>To-do List</h3>
+                <div class="checkbox">
+                    <input type="checkbox">
+                    <p>Home word</p> <img class="trash-img" src="Ảnh chuyên dụng/trash.png" alt="">
+                </div>
             </div>
         </div>
         <!--Room-name-->
         <div class="Room-name">
             <h3> Room's name</h3>
-            <div class="out"><img src="Ảnh chuyên dụng/non.png" alt=""> Out</div>
+           <a href="Space.html"><button class="out"><img src="Ảnh chuyên dụng/non.png" alt="">Out</button></a> 
         </div>
+        <!--TIMER-->
         <div class="timer">
-            <img src="Ảnh chuyên dụng/clock.png" alt=""><h3>Timer</h3>
-            <button class="start">Start</button>
-            <button class="Podomoro">Podomaro</button>
-            <button class="Break">Break</button>
+            <div class="Timer">
+                <img src="Ảnh chuyên dụng/clock.png" alt="">
+                <h3>Timer</h3>
+            </div>
+            <div class="Start">
+                <br>
+                <a href=""><button class="start">Start</button></a>
+            </div>
+            <div class="podomaro-break">
+                <a href=""><button class="btn Podomaro ">Podomaro</button></a>
+                <a href=""><button class="btn Break">Break</button></a>
+            </div>
         </div>
-        <div class="sound">
-            <p class="rain">rain</p> <img src="Ảnh chuyên dụng/volumn.png" alt=""> <input type="range">
-            <p class="ocean">ocean</p> <img src="Ảnh chuyên dụng/mute.png" alt=""> <input type="range">
-            <p class="cafe">cafe</p> <img src="Ảnh chuyên dụng/mute.png" alt=""> <input type="range">
+        <!--SOUND-->
+        <div class="Sound">
+            <div class="sound">
+                <img src="Ảnh chuyên dụng/sound.png" alt="">
+                <h3>Sound</h3>
+            </div>
+            <div class="Volumn">
+                <p>rain</p> <img src="Ảnh chuyên dụng/volumn.png" alt=""> <input type="range">
+            </div>
+            <div class="Volumn">
+                <p>ocean</p> <img src="Ảnh chuyên dụng/mute.png" alt=""> <input type="range">
+            </div>
+            <div class="Volumn">
+                <p>cafe</p> <img src="Ảnh chuyên dụng/mute.png" alt=""> <input type="range">
+            </div>
         </div>
     </div>
 
 </body>
+
 </html>
