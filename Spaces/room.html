@@ -18,9 +18,6 @@
         <!--button control page  & list spaces-->
         <div class="List-room">
             <h1>Bread Spaces</h1>
-            <div class="time">
-                <input type="time">
-            </div>
             <div class="space">
                 <h2>Spaces</h2>
                 <div class="control">
@@ -54,19 +51,37 @@
            <a href="Space.html"><button class="out"><img src="Ảnh chuyên dụng/non.png" alt="">Out</button></a> 
         </div>
         <!--TIMER-->
-        <div class="timer">
-            <div class="Timer">
+        <div class="timers">
+            <div class="Timers">
                 <img src="Ảnh chuyên dụng/clock.png" alt="">
                 <h3>Timer</h3>
             </div>
-            <div class="Start">
-                <br>
-                <a href=""><button class="start">Start</button></a>
+            <div class='wrapper'>
+                <div class='align-wrap'>
+                  <div class='align'>
+                    <div class='group'>
+                      <div class='left'>
+                        <h3 class='break'>break</h3>
+                        <h2><a id='breakMinus' href="#">-</a><span id='breakMinutes'></span><a id='breakPlus' href="#">+</a></h2>
+                      </div>
+                      <div class='right'>
+                        <h3 class='session'>session</h3>
+                        <h2><a id='sessionMinus' href="#">-</a><span id='sessionMinutes'></span><a id='sessionPlus' href="#">+</a></h2>
+                      </div>
+                    </div>
+                    <div class='clock'>
+                      <h1 class='timer' id='timer'></h1>
+                      <button class='btn right' id='reset'>reset</button>
+                      <button class='btn ' id='start'>start</button>
+                      <button class='btn left' id='pause'>pause</button> 
+                      <button class='btn right' id='resetBreak'>reset</button> 
+                      <button class='btn' id='startBreak'>start</button>
+                      <button class='btn left' id='pauseBreak'>pause</button>    
+                    </div>
+                  </div>
+                </div>
             </div>
-            <div class="podomaro-break">
-                <a href=""><button class="btn Podomaro ">Podomaro</button></a>
-                <a href=""><button class="btn Break">Break</button></a>
-            </div>
+              <script src="countdown.js"></script>
         </div>
         <!--SOUND-->
         <div class="Sound">

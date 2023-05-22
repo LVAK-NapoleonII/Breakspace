@@ -34,10 +34,6 @@ body,
     padding-top: 10px;
 }
 
-.time {
-    float: right;
-}
-
 .space {
     display: grid;
     grid-template-columns: 50px 200px;
@@ -90,16 +86,6 @@ body,
     margin-top: 25px;
     margin-left: 20px;
 }
-
-.cafe-img {}
-
-.code-img {}
-
-.lofi-img {}
-
-.study-img {}
-
-.art-img {}
 
 .volumn {
     display: grid;
@@ -187,8 +173,9 @@ body,
     font-weight: bold;
 }
 
-.Room-name a {
+.Room-name a,.group a {
     text-decoration: none;
+    color: #000;
 }
 
 .Room-name img {
@@ -211,11 +198,8 @@ body,
     background-color: #EAEAEA;
 }
 
-.timer {
+.timers {
     position: absolute;
-    display: grid;
-    grid-template-columns: 127px 100px;
-    column-gap: 52px;
     background: rgb(254, 252, 252);
     height: 150px;
     width: 300px;
@@ -225,51 +209,51 @@ body,
     padding-bottom: 10px;
 }
 
-.Timer {
+.Timers {
     display: grid;
-    grid-template-columns: 45px 50px;
+    grid-template-columns: 45px 65px;
     column-gap: 10px;
 }
 
-.timer img {
+.Timers img {
     margin: 10px 20px;
 }
 
-.timer h3 {
+.Timers h3 {
     margin-top: 5px;
+    margin-bottom: 2px;
     font-weight: bold;
     font-size: 25px;
 }
 
-.Start button {
-    border-radius: 10px;
-    height: 30px;
-}
-
-.start {
-    margin-top: 20px;
-    font-weight: bold;
-    width: 100px;
-    background-color: #ffffff;
-}
-
-.podomaro-break {
+.group{
     display: grid;
-    grid-template-columns: 110px 110px;
-    column-gap: 70px;
+    grid-template-columns: 80px 100px;
+    column-gap: 20px;
+    margin-left: 50px;
 }
 
-.Podomaro,
-.Break {
-    border: none;
+.group h3,.clock h1{
+    margin: 2px 15px;
+
+}
+
+.group h2{
+    margin: 2px 17px;
+}
+
+.clock {
+    display: grid;
+    grid-template-columns: 100px 70px 60px;
+    column-gap: 30px;
+    background: linear-gradient(122.48deg, #e6cece, rgba(209, 204, 244, 0.7));
+}
+
+.clock button {
     border-radius: 10px;
-    width: 100px;
+    margin-top: 5px;
     height: 30px;
-    font-weight: bold;
-}
-
-.Podomaro {
-    margin-left: 20px;
+    width: 60px;
 }
 
 .Sound {
