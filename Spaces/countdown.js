@@ -8,7 +8,7 @@ var rest = 5;
 var sessionSeconds = session * 60;
 var restSeconds = rest * 60;
 
-var audioSession = new Audio('http://www.oringz.com/oringz-uploads/sounds-948-just-like-magic.mp3');
+var audioSession = new Audio('https://notificationsounds.com/standard-ringtones/happy-jump-399');
 var audioBreak = new Audio('http://www.oringz.com/oringz-uploads/sounds-882-solemn.mp3');
 
 var sessionMinutes = document.getElementById('sessionMinutes'),

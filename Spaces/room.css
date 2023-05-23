@@ -98,6 +98,10 @@ body,
     margin: 10px;
 }
 
+.volumn audio{
+    margin: 20px 10px;
+}
+
 .play {
     margin: 20px;
     width: 50px;
@@ -267,6 +271,11 @@ body,
     padding-bottom: 10px;
 }
 
+.Sound audio{
+    height: 20px;
+    width: 230px;
+}
+
 .sound {
     display: grid;
     grid-template-columns: 40px 50px;
@@ -291,7 +300,7 @@ body,
 
 .Volumn p {
     font-weight: bold;
-    margin: 3px;
+    margin:3px 10px;
 }
 
 button:hover {
